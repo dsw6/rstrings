@@ -42,6 +42,13 @@ describe("rstrings.alphaMixed function", function ()
    });
 
       //----------------------------------------------------------------------------
+   it(`should support 1 length strings`, function () 
+   {
+      var data = rstrings.alphaMixed(1);
+      expect(data.length, "data contents invalid").to.equal(1);
+   });
+
+      //----------------------------------------------------------------------------
    it(`should return empty string for length is less than 1`, function () 
    {
       var data = rstrings.alphaMixed(0.5);
