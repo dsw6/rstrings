@@ -23,8 +23,9 @@ The store factory function is used to create a new store.
 Generate a random string with a length of `len` using the characters specified in `charset`.
 
 ```javascript
-const rstrings = require('rstrings');
-const rdata = rstrings.generate(30, "ABCDEFGHIJK");
+const rstrings = require("rstrings");
+
+var rdata = rstrings.generate(30, "ABCDEFGHIJK");
 ```
 
 ### Predefined Character Sets:
@@ -45,64 +46,56 @@ const HEX            = "0123456789ABCDEF";
 Shortcut function uses the `ALPHAUPPER` character set.
 
 ```javascript
-const rstrings = require('rstrings');
-const rdata = rstrings.alphaUpper(30);
+var rdata = rstrings.alphaUpper(30);
 ```
 
 ### **<span style="color:blue">alphaLower(len)</span>**  
 Shortcut function uses the `ALPHALOWER` character set.
 
 ```javascript
-const rstrings = require('rstrings');
-const rdata = rstrings.alphaLower(30);
+var rdata = rstrings.alphaLower(30);
 ```
 
 ### **<span style="color:blue">alphaMixed(len)</span>**  
 Shortcut function uses the `ALPHAMIXED` character set.
 
 ```javascript
-const rstrings = require('rstrings');
-const rdata = rstrings.alphaMixed(30);
+var rdata = rstrings.alphaMixed(30);
 ```
 
 ### **<span style="color:blue">alphaNumUpper(len)</span>**  
 Shortcut function uses the `ALPHANUMUPPER` character set.
 
 ```javascript
-const rstrings = require('rstrings');
-const rdata = rstrings.alphaNumUpper(30);
+var rdata = rstrings.alphaNumUpper(30);
 ```
 
 ### **<span style="color:blue">alphaNumLower(len)</span>**  
 Shortcut function uses the `ALPHANUMLOWER` character set.
 
 ```javascript
-const rstrings = require('rstrings');
-const rdata = rstrings.alphaNumLower(30);
+var rdata = rstrings.alphaNumLower(30);
 ```
 
 ### **<span style="color:blue">alphaNumMixed(len)</span>**  
 Shortcut function uses the `ALPHANUMMIXED` character set.
 
 ```javascript
-const rstrings = require('rstrings');
-const rdata = rstrings.alphaNumMixed(30);
+var rdata = rstrings.alphaNumMixed(30);
 ```
 
 ### **<span style="color:blue">numeric(len)</span>**  
 Shortcut function uses the `NUMERIC` character set.
 
 ```javascript
-const rstrings = require('rstrings');
-const rdata = rstrings.numeric(30);
+var rdata = rstrings.numeric(30);
 ```
 
 ### **<span style="color:blue">hex(len)</span>**  
 Shortcut function uses the `HEX` character set.
 
 ```javascript
-const rstrings = require('rstrings');
-const rdata = rstrings.hex(30);
+var rdata = rstrings.hex(30);
 ```
 
 ## License
