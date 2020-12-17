@@ -7,7 +7,7 @@
 "use strict";
 
 const expect = require("chai").expect;
-const rstrings = require("rstrings");
+const rstrings = require("../lib/rstrings");
 
 
 describe("rstrings.alphaLower function", function () 
