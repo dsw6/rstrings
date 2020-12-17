@@ -1,0 +1,32 @@
+{
+   "name": "rstrings",
+   "version": "1.0.0",
+   "description": "generate some random strings",
+   "keywords": [
+      "random",
+      "strings"
+   ],
+   "author": "David Ward",
+   "license": "MIT",
+   "repository": {
+         "type": "git",
+         "url": "https://github.com/dsw6/rstrings.git"
+   },
+   "scripts": {
+      "test": "mocha"
+   },
+   "main": "lib/rstrings.js",
+   "dependencies": {},
+   "devDependencies": {
+      "chai": "^4.2.0",
+      "mocha": "^8.2.1"
+   },
+   "engines": {
+      "node": ">= 0.10.0"
+   },
+   "files": [
+      "LICENSE",
+      "README.md",
+      "lib/"
+   ]
+}
