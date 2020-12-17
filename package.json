@@ -9,8 +9,8 @@
    "author": "David Ward",
    "license": "MIT",
    "repository": {
-         "type": "git",
-         "url": "https://github.com/dsw6/rstrings.git"
+      "type": "git",
+      "url": "https://github.com/dsw6/rstrings.git"
    },
    "scripts": {
       "test": "mocha"
