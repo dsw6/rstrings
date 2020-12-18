@@ -1,5 +1,5 @@
 {
-   "name": "rstrings",
+   "name": "@dsw/rstrings",
    "version": "1.0.0",
    "description": "generate some random strings",
    "keywords": [
